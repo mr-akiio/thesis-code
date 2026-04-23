@@ -1,4 +1,4 @@
-src/notebooks/datasets/*
-src/notebooks/prev-thesis/*
-src/notebooks/sec-certs-notebooks/*
-src/notebooks/.ipynb_checkpoints/*
+notebooks/datasets/*
+notebooks/prev-thesis/*
+notebooks/sec-certs-notebooks/*
+notebooks/.ipynb_checkpoints/*
