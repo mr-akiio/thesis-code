@@ -1,11 +1,11 @@
 from sec_certs.dataset.cc import CCDataset
 import pandas as pd
-from manufacturer_cleanup import unify_manufacturer
+from .manufacturer_cleanup import unify_manufacturer
 
 def get_library_mentions(dataset: CCDataset, name: str) -> pd.DataFrame:
     columns = ['Library', 'Manufacturer', 'IssueDate', 'SunsetDate', f"{name}Mentioned", f"{name}MentionedReport", f"{name}MentionedTarget", 'Country', 'Category']
 
-# Create the empty DataFrame
+
     result = pd.DataFrame(columns=columns)
 
     for cert in dataset:
@@ -21,13 +21,13 @@ def get_library_mentions(dataset: CCDataset, name: str) -> pd.DataFrame:
 
         if list_of_libs > 0 or list_of_libs_2 > 0:
             result.loc[len(result)] = [name, 
-                                       unify_manufacturer(cert.manufacturer), 
-                                       cert.not_valid_before, 
-                                       cert.not_valid_after, 
-                                       1, 
-                                       list_of_libs, 
-                                       list_of_libs_2, 
-                                       cert.scheme, 
+                                       unify_manufacturer(cert.manufacturer),
+                                       cert.not_valid_before,
+                                       cert.not_valid_after,
+                                       1,
+                                       list_of_libs,
+                                       list_of_libs_2,
+                                       cert.scheme,
                                        cert.category
                                        ]
 

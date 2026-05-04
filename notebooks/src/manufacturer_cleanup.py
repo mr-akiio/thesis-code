@@ -1,4 +1,4 @@
-from unification_dictionaries import manufacturer_mapping, manufacturer_patterns, suffixes_to_remove, comma_exceptions
+from .unification_dictionaries import manufacturer_mapping, manufacturer_patterns, suffixes_to_remove, comma_exceptions
 
 def pre_process_manufacturer(manufacturer):
     manufacturer_items = [item.strip() for item in manufacturer.split(',')]
