@@ -2,3 +2,4 @@ notebooks/datasets/*
 notebooks/prev-thesis/*
 notebooks/sec-certs-notebooks/*
 notebooks/.ipynb_checkpoints/*
+notebooks/src/__pycache__/*

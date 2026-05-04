@@ -26,10 +26,9 @@ RUN pip install --no-cache-dir \
     spacy==3.*
 
 # =========================
-# 3. sec-certs (pinned to commit)
+# 3. sec-certs 
 # =========================
-RUN pip install --no-cache-dir \
-    git+https://github.com/crocs-muni/sec-certs.git@8ab79f0c7
+RUN pip install --no-cache-dir sec-certs
 
 # =========================
 # 4. spaCy model (explicit versioning style)
