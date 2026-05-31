@@ -10,6 +10,14 @@ def get_cc_library_mentions(dataset: CCDataset, name: str) -> pd.DataFrame:
     result = pd.DataFrame(columns=columns)
 
     for cert in dataset:
+        if "Network" in cert.category:
+            category = "Network Devices and Systems"
+        elif "Smart Card" in cert.category:
+            category = "Smart Cards"
+        else:
+            category = cert.category
+        if cert.manufacturer in [None, "[email protected]"]:
+            continue
         list_of_libs, list_of_libs_2 = 0,0
 
         if cert.pdf_data.report_keywords not in [None, []]:
@@ -28,7 +36,7 @@ def get_cc_library_mentions(dataset: CCDataset, name: str) -> pd.DataFrame:
                                        list_of_libs,
                                        list_of_libs_2,
                                        cert.scheme,
-                                       cert.category
+                                       category
                                        ]
 
     return result
@@ -38,6 +46,8 @@ def get_fips_library_mentions(dataset: FIPSDataset, name: str) -> pd.DataFrame:
     all_df = pd.DataFrame(columns=columns)
 
     for cert in dataset:
+        if "email" in cert.web_data.vendor.lower():
+            continue
         if cert.pdf_data.keywords and "crypto_library" in cert.pdf_data.keywords and cert.web_data.validation_history:
             list_of_libs = cert.pdf_data.keywords["crypto_library"]
             if name in list_of_libs:
