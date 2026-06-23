@@ -4,3 +4,4 @@ notebooks/sec-certs-notebooks/*
 notebooks/.ipynb_checkpoints/*
 notebooks/src/__pycache__/*
 notebooks/src/.ipynb_checkpoints/*
+meeting_notes.txt
