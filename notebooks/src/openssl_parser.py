@@ -13,7 +13,7 @@ def parse_openssl_docs():
             
             # The docs have a table format: <tr><td><a href="...">name</a></td><td>description</td></tr>
             # Extract the text inside the <a> tag which corresponds to the library/function name.
-            pattern = r"<td><a\s+href=[^>]+>([^<]+)</a></td>"
+            pattern = r"<td><a\s+href=[^>]+>([^<]+)</a>"
             matches = re.findall(pattern, html)
             
             # Clean up and remove duplicates if any (while preserving order)
