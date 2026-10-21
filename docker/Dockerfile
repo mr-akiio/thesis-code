@@ -28,6 +28,13 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir git+https://github.com/crocs-muni/sec-certs.git
 
 # =========================
+# 3. Jupyter MCP server support (lets Claude Code drive notebooks)
+# =========================
+RUN pip install --no-cache-dir \
+    jupyter-collaboration \
+    jupyter-mcp-tools
+
+# =========================
 # 4. spaCy model (explicit versioning style)
 # =========================
 RUN python -m spacy download en_core_web_sm

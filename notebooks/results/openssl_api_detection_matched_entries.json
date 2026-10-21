@@ -1,0 +1,6693 @@
+[
+    {
+        "Dataset":"FIPS",
+        "ID":"cdad86ca9450d1c1",
+        "Manufacturer":"CoCo Communications",
+        "Name":"The CoCo Crypto Module",
+        "IssueDate":1220313600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_generate_key",
+            "DH_generate_key",
+            "DSA_generate_parameters",
+            "RAND_seed",
+            "RAND_bytes",
+            "DH_check",
+            "DH_compute_key",
+            "DH_generate_parameters",
+            "DH_new",
+            "DH_size",
+            "DSA_new",
+            "DSA_size",
+            "DH_free",
+            "DSA_free",
+            "DSA_sign",
+            "DSA_verify",
+            "HMAC_Final",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "DSA_print",
+            "PEM_write_bio_DHparams",
+            "PEM_write_bio_DSAPrivateKey",
+            "PEM_write_bio_DSA_PUBKEY",
+            "PEM_write_bio_DSAparams",
+            "i2d_DSAPrivateKey_bio",
+            "i2d_DSA_PUBKEY_bio",
+            "PEM_read_bio_DHparams",
+            "PEM_read_bio_DSAPrivateKey",
+            "PEM_read_bio_DSA_PUBKEY",
+            "PEM_read_bio_DSAparams",
+            "d2i_DSAPrivateKey_bio",
+            "d2i_DSA_PUBKEY_bio",
+            "ASN1_INTEGER_free",
+            "ASN1_INTEGER_get",
+            "ASN1_INTEGER_new",
+            "ASN1_INTEGER_set",
+            "ASN1_INTEGER_to_BN",
+            "ASN1_TIME_set",
+            "ASN1_UTCTIME_print",
+            "BN_bin2bn",
+            "BN_bn2bin",
+            "BN_bn2dec",
+            "BN_bn2hex",
+            "BN_clear",
+            "BN_clear_free",
+            "BN_cmp",
+            "BN_copy",
+            "BN_dec2bn",
+            "BN_dup",
+            "BN_free",
+            "BN_hex2bn",
+            "BN_new",
+            "BN_num_bits",
+            "BN_print",
+            "BN_swap",
+            "BN_to_ASN1_INTEGER",
+            "BN_value_one",
+            "X509_gmtime_adj",
+            "X509_time_adj",
+            "BIO_free",
+            "BIO_gets",
+            "BIO_new_fd",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_new_mem_buf",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_write",
+            "ERR_error_string",
+            "ERR_error_string_n",
+            "ERR_free_strings",
+            "ERR_func_error_string",
+            "ERR_get_error",
+            "ERR_lib_error_string",
+            "ERR_load_crypto_strings",
+            "ERR_print_errors",
+            "ERR_reason_error_string",
+            "BIO_callback_ctrl",
+            "BIO_ctrl",
+            "BIO_ctrl_get_read_request",
+            "BIO_ctrl_get_write_guarantee",
+            "BIO_ctrl_pending",
+            "BIO_ctrl_reset_read_request",
+            "BIO_ctrl_wpending",
+            "BIO_debug_callback",
+            "BIO_f_base64",
+            "BIO_f_buffer",
+            "BIO_f_cipher",
+            "BIO_f_md",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_free_all",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_reason",
+            "BIO_int_ctrl",
+            "BIO_new",
+            "BIO_next",
+            "BIO_pop",
+            "BIO_ptr_ctrl",
+            "BIO_push",
+            "BIO_s_bio",
+            "BIO_s_fd",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_set_cipher",
+            "BN_CTX_free",
+            "BN_CTX_new",
+            "BN_add",
+            "BN_add_word",
+            "BN_clear_bit",
+            "BN_div",
+            "BN_div_word",
+            "BN_generate_prime",
+            "BN_get_word",
+            "BN_is_bit_set",
+            "BN_is_prime",
+            "BN_lshift",
+            "BN_mask_bits",
+            "BN_mod_word",
+            "BN_mul",
+            "BN_mul_word",
+            "BN_rshift",
+            "BN_set_bit",
+            "BN_set_word",
+            "BN_sqr",
+            "BN_sub",
+            "BN_sub_word",
+            "CRYPTO_free",
+            "CRYPTO_malloc",
+            "EVP_get_digestbyname",
+            "EVP_sha1",
+            "EVP_Digest",
+            "EVP_DigestFinal_ex",
+            "EVP_DigestInit_ex",
+            "EVP_DigestUpdate",
+            "EVP_SignFinal",
+            "EVP_VerifyFinal",
+            "EVP_PKEY_bits",
+            "EVP_PKEY_cmp_parameters",
+            "EVP_PKEY_copy_parameters",
+            "EVP_PKEY_free",
+            "EVP_PKEY_get1_DH",
+            "EVP_PKEY_get1_DSA",
+            "EVP_PKEY_missing_parameters",
+            "EVP_PKEY_new",
+            "EVP_PKEY_set1_DH",
+            "EVP_PKEY_set1_DSA",
+            "EVP_PKEY_size",
+            "EVP_PKEY_type",
+            "PEM_read_bio_PUBKEY",
+            "PEM_read_bio_PrivateKey",
+            "PEM_write_bio_PUBKEY",
+            "PEM_write_bio_PrivateKey",
+            "EVP_CIPHER_type",
+            "EVP_aes_256_cfb128",
+            "EVP_get_cipherbyname",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_CIPHER_CTX_set_padding",
+            "EVP_CipherFinal_ex",
+            "EVP_CipherInit_ex",
+            "EVP_CipherUpdate",
+            "EVP_DecryptFinal_ex",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_EncryptFinal_ex",
+            "EVP_EncryptInit_ex",
+            "EVP_EncryptUpdate",
+            "EVP_OpenFinal",
+            "EVP_OpenInit",
+            "EVP_OpenUpdate",
+            "EVP_SealFinal",
+            "EVP_SealInit",
+            "EVP_SealUpdate",
+            "ENGINE_by_id",
+            "ENGINE_cleanup",
+            "ENGINE_finish",
+            "ENGINE_free",
+            "ENGINE_init",
+            "ENGINE_load_builtin_engines",
+            "ENGINE_register_all_ciphers",
+            "ENGINE_register_all_digests",
+            "X509_EXTENSION_dup",
+            "X509_EXTENSION_new",
+            "X509_NAME_add_entry_by_NID",
+            "X509_NAME_add_entry_by_txt",
+            "X509_NAME_delete_entry",
+            "X509_NAME_dup",
+            "X509_NAME_new",
+            "X509_REQ_new",
+            "X509_REQ_set_pubkey",
+            "X509_REQ_set_subject_name",
+            "X509_REQ_set_version",
+            "X509_STORE_CTX_init",
+            "X509_STORE_CTX_new",
+            "X509_STORE_add_cert",
+            "X509_STORE_new",
+            "X509_add1_ext_i2d",
+            "X509_add_ext",
+            "X509_dup",
+            "X509_new",
+            "X509_set_issuer_name",
+            "X509_set_pubkey",
+            "X509_set_serialNumber",
+            "X509_set_subject_name",
+            "X509_set_version",
+            "X509_NAME_cmp",
+            "X509_NAME_entry_count",
+            "X509_NAME_get_entry",
+            "X509_NAME_get_index_by_NID",
+            "X509_NAME_get_text_by_NID",
+            "X509_REQ_get_pubkey",
+            "X509_cmp",
+            "X509_get_issuer_name",
+            "X509_get_pubkey",
+            "X509_get_serialNumber",
+            "X509_get_subject_name",
+            "X509_verify_cert_error_string",
+            "X509_EXTENSION_free",
+            "X509_NAME_free",
+            "X509_REQ_free",
+            "X509_STORE_CTX_free",
+            "X509_STORE_free",
+            "X509_free",
+            "PEM_write_bio_X509",
+            "PEM_write_bio_X509_AUX",
+            "PEM_write_bio_X509_CRL",
+            "PEM_write_bio_X509_REQ",
+            "PEM_write_bio_X509_REQ_NEW",
+            "X509_NAME_oneline",
+            "X509_NAME_print",
+            "X509_NAME_print_ex",
+            "i2d_X509_REQ_bio",
+            "i2d_X509_bio",
+            "PEM_X509_INFO_read_bio",
+            "PEM_read_bio_X509",
+            "PEM_read_bio_X509_AUX",
+            "PEM_read_bio_X509_CRL",
+            "PEM_read_bio_X509_REQ",
+            "d2i_X509_REQ_bio",
+            "d2i_X509_bio",
+            "X509_NAME_digest",
+            "X509_REQ_digest",
+            "X509_REQ_sign",
+            "X509_REQ_verify",
+            "X509_check_private_key",
+            "X509_digest",
+            "X509_pubkey_digest",
+            "X509_sign",
+            "X509_verify",
+            "X509_verify_cert"
+        ],
+        "FunctionCount":251,
+        "TotalOccurrences":259,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b3b130b344c28e52",
+        "Manufacturer":"Brocade Communications Systems LLC",
+        "Name":"Brocade Fabric OS FIPS Cryptographic Module 8.2",
+        "IssueDate":1532476800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_status",
+            "DH_OpenSSL",
+            "DH_get_default_method",
+            "DH_generate_parameters_ex",
+            "DH_compute_key",
+            "DH_generate_key",
+            "DH_free",
+            "DH_new",
+            "EC_KEY_new",
+            "EC_KEY_new_by_curve_name",
+            "EC_KEY_generate_key",
+            "EC_KEY_free",
+            "ECDSA_do_sign",
+            "ECDSA_do_sign_ex",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "EVP_Cipher",
+            "EVP_Digest",
+            "EVP_sha1",
+            "EVP_sha224",
+            "EVP_sha256",
+            "EVP_sha384",
+            "EVP_sha512",
+            "EVP_SignFinal",
+            "EVP_VerifyFinal",
+            "HMAC_Final",
+            "HMAC_Update",
+            "RAND_add",
+            "RAND_bytes",
+            "RAND_get_rand_method",
+            "RAND_load_file",
+            "RAND_poll",
+            "RAND_pseudo_bytes",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_public_encrypt",
+            "RSA_private_decrypt",
+            "RSA_generate_key",
+            "RSA_generate_key_ex",
+            "EVP_MD_size",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":42,
+        "TotalOccurrences":83,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"51283fa355970ea4",
+        "Manufacturer":"Stryker Corporation",
+        "Name":"Stryker Badge Cryptographic Module",
+        "IssueDate":1781654400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse",
+            "OSSL_PROVIDER_self_test",
+            "OSSL_PROVIDER_get_params",
+            "OSSL_PARAM",
+            "EVP_PKEY_public_check",
+            "EVP_PKEY_public_check_quick",
+            "EVP_PKEY_encapsulate"
+        ],
+        "FunctionCount":7,
+        "TotalOccurrences":72,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"23c657f2efda7731",
+        "Manufacturer":"Tumbleweed Communications Corp.",
+        "Name":"ValiCert Security Module",
+        "IssueDate":1044316800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "PEM_read_bio_X509",
+            "PEM_read_bio_X509_CRL",
+            "PEM_write_bio_X509",
+            "PEM_write_bio_X509_CRL",
+            "X509_free",
+            "X509_LOOKUP_load_file",
+            "X509_STORE_add_cert",
+            "X509_STORE_free",
+            "X509_LOOKUP_by_subject",
+            "X509_LOOKUP_by_issuer_serial",
+            "X509_LOOKUP_by_fingerprint",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_public_encrypt",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "RSA_private_decrypt",
+            "RSA_generate_key",
+            "PKCS12_create",
+            "PKCS12_parse",
+            "d2i_PKCS12",
+            "i2d_PKCS12",
+            "PKCS12_free",
+            "RSA_free",
+            "RAND_bytes",
+            "SSL_CTX_add_session",
+            "SSL_SESSION_free",
+            "X509_STORE",
+            "X509_LOOKUP",
+            "EVP_PKEY",
+            "RAND_seed",
+            "SSL_CTX_flush_sessions",
+            "SSL_CTX"
+        ],
+        "FunctionCount":33,
+        "TotalOccurrences":72,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"a07e64a2cea4932c",
+        "Manufacturer":"Dell EMC",
+        "Name":"EMC Data Domain Crypto-C Micro Edition",
+        "IssueDate":1474848000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fc5101a7f55d71e2",
+        "Manufacturer":"RSA",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1418688000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"642c2a0918053df9",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE(R) Crypto-C Micro Edition",
+        "IssueDate":1393977600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"967ae5f964cddff3",
+        "Manufacturer":"RSA",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1418342400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_get_buffer_num_lines",
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"88100ba34db736c9",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE(R) Crypto-C Micro Edition",
+        "IssueDate":1386201600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"adde7bf0e33b1136",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE(R) Crypto-C Micro Edition",
+        "IssueDate":1385337600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"1dffd68e5364ca23",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE(R) Crypto-C Micro Edition",
+        "IssueDate":1410134400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_ctrl",
+            "BIO_eof",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_app_data",
+            "BIO_get_buffer_num_lines",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_mem_data",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pending",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_app_data",
+            "BIO_set_buffer_read_data",
+            "BIO_set_buffer_size",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_set_mem_eof_return",
+            "BIO_set_read_buffer_size",
+            "BIO_set_retry_read",
+            "BIO_set_retry_special",
+            "BIO_set_retry_write",
+            "BIO_set_write_buffer_size",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_wpending",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":59,
+        "TotalOccurrences":59,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"7a6171f6389cbb70",
+        "Manufacturer":"Dynatrace LLC",
+        "Name":"Dynatrace Cryptographic Module",
+        "IssueDate":1742169600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DH_check",
+            "DH_check_ex",
+            "EVP_PKEY_param_check",
+            "SSL_free_buffers",
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":19,
+        "TotalOccurrences":53,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"1de4d95a81eb1780",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition (ME)",
+        "IssueDate":1134432000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename",
+            "RAND_bytes",
+            "RAND_cleanup",
+            "RAND_file_name",
+            "RAND_get_rand_method",
+            "RAND_load_file",
+            "RAND_seed",
+            "RAND_set_rand_method",
+            "RAND_write_file"
+        ],
+        "FunctionCount":49,
+        "TotalOccurrences":49,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"202fd26f14d638cc",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1354147200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_get_ssl",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":44,
+        "TotalOccurrences":44,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"8c9089be2f18fb28",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1399334400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_get_ssl",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":44,
+        "TotalOccurrences":44,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5f302d143dace627",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1235433600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_get_ssl",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":44,
+        "TotalOccurrences":44,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"43d244581aa23a74",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition (ME)",
+        "IssueDate":1188172800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":43,
+        "TotalOccurrences":43,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"70d432707ec24786",
+        "Manufacturer":"Route1\u00ae Inc.",
+        "Name":"Route1\u00ae FIPS Cryptographic Module",
+        "IssueDate":1216252800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":43,
+        "TotalOccurrences":43,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fb5316204aa75301",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition",
+        "IssueDate":1228089600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":43,
+        "TotalOccurrences":43,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"8b6cd7c429e83373",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition (ME)",
+        "IssueDate":1195430400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_flags",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_retry_type",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":42,
+        "TotalOccurrences":42,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"c403741c4121989a",
+        "Manufacturer":"Bluefire Security Technologies",
+        "Name":"Bluefire Mobile Security\u2122 FIPS Cryptographic Module",
+        "IssueDate":1130889600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":41,
+        "TotalOccurrences":41,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ecac903ea62dc1d5",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE\u00ae Crypto-C Micro Edition (ME)",
+        "IssueDate":1109548800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "BIO_append_filename",
+            "BIO_clear_flags",
+            "BIO_clear_retry_flags",
+            "BIO_f_buffer",
+            "BIO_f_null",
+            "BIO_find_type",
+            "BIO_flush",
+            "BIO_free",
+            "BIO_free_all",
+            "BIO_get_close",
+            "BIO_get_flags",
+            "BIO_get_fp",
+            "BIO_get_retry_BIO",
+            "BIO_get_retry_reason",
+            "BIO_gets",
+            "BIO_method_type",
+            "BIO_new",
+            "BIO_new_file",
+            "BIO_new_fp",
+            "BIO_pop",
+            "BIO_printf",
+            "BIO_push",
+            "BIO_puts",
+            "BIO_read",
+            "BIO_read_filename",
+            "BIO_reset",
+            "BIO_rw_filename",
+            "BIO_s_file",
+            "BIO_s_mem",
+            "BIO_s_null",
+            "BIO_seek",
+            "BIO_set_close",
+            "BIO_set_flags",
+            "BIO_set_fp",
+            "BIO_should_io_special",
+            "BIO_should_read",
+            "BIO_should_retry",
+            "BIO_should_write",
+            "BIO_tell",
+            "BIO_write",
+            "BIO_write_filename"
+        ],
+        "FunctionCount":41,
+        "TotalOccurrences":41,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"14326baf59373fee",
+        "Manufacturer":"Huawei Device (Dongguan) Co. Ltd.",
+        "Name":"EDK Management Module",
+        "IssueDate":1440547200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_aes_128_cbc",
+            "EVP_aes_128_ecb",
+            "EVP_aes_128_ofb",
+            "EVP_aes_128_cfb128",
+            "EVP_aes_128_cfb1",
+            "EVP_aes_128_cfb8",
+            "EVP_aes_128_ctr",
+            "EVP_aes_192_cbc",
+            "EVP_aes_192_ecb",
+            "EVP_aes_192_ofb",
+            "EVP_aes_192_cfb128",
+            "EVP_aes_192_cfb1",
+            "EVP_aes_192_cfb8",
+            "EVP_aes_192_ctr",
+            "EVP_aes_256_cbc",
+            "EVP_aes_256_ecb",
+            "EVP_aes_256_ofb",
+            "EVP_aes_256_cfb128",
+            "EVP_aes_256_cfb1",
+            "EVP_aes_256_cfb8",
+            "EVP_aes_256_ctr",
+            "EVP_aes_128_gcm",
+            "EVP_aes_192_gcm",
+            "EVP_aes_256_gcm",
+            "EVP_aes_128_xts",
+            "EVP_aes_256_xts",
+            "EVP_aes_128_ccm",
+            "EVP_aes_192_ccm",
+            "EVP_aes_256_ccm",
+            "EVP_sha1",
+            "EVP_sha224",
+            "EVP_sha256",
+            "EVP_sha384",
+            "EVP_sha512",
+            "PKCS5_PBKDF2_HMAC"
+        ],
+        "FunctionCount":35,
+        "TotalOccurrences":35,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b567edd38e178dac",
+        "Manufacturer":"Amazon Web Services Inc.",
+        "Name":"AWS-LC Cryptographic Module",
+        "IssueDate":1696550400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_PKEY_keygen",
+            "EVP_DigestSign",
+            "EVP_DigestSignInit",
+            "EVP_DigestSignUpdate",
+            "EVP_DigestSignFinal",
+            "EVP_DigestVerify",
+            "EVP_DigestVerifyInit",
+            "EVP_DigestVerifyFinal",
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "OPENSSL_cleanse",
+            "RSA_free",
+            "EC_GROUP_free",
+            "EC_POINT_free",
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":29,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"bb12fc5a6af710c3",
+        "Manufacturer":"ExtraHop Networks, Inc.",
+        "Name":"ExtraHop Cryptographic Module",
+        "IssueDate":1706572800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":28,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"59e1e59850940550",
+        "Manufacturer":"Ideem, Inc.",
+        "Name":"Ideem ZSM Cryptographic Module",
+        "IssueDate":1740960000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so",
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":4,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b722c9caaa55038b",
+        "Manufacturer":"Skydio, Inc.",
+        "Name":"Skydio Cryptographic Module",
+        "IssueDate":1744848000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5ca452a03e3d5c2d",
+        "Manufacturer":"Sunhillo Corporation",
+        "Name":"Sunhillo Cryptographic Module",
+        "IssueDate":1744848000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fd69b53f644e0e39",
+        "Manufacturer":"Ergotron, Inc.",
+        "Name":"Ergotron Cryptographic Module",
+        "IssueDate":1750032000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"34a1559c4bfcf5e0",
+        "Manufacturer":"Senetas Corporation Ltd, Distributed by Thales SA (SafeNet)",
+        "Name":"CN Series Encryptor comprising of the models CN4010\/CN4020\/CN6010\/CN6140\/CN9100\/CN9120 running software version 5.0.2",
+        "IssueDate":1625616000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign",
+            "ECDSA_sign"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"79830ce5b6d9c51e",
+        "Manufacturer":"Guntermann & Drunck GmbH",
+        "Name":"G&D Cryptographic Module",
+        "IssueDate":1744848000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"6078ab6da8612a51",
+        "Manufacturer":"Signify North America Corporation",
+        "Name":"Signify Trulifi Cryptographic Module",
+        "IssueDate":1744848000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e26f3716adbe1a42",
+        "Manufacturer":"Masimo Corporation",
+        "Name":"Masimo Cryptographic Module",
+        "IssueDate":1725408000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_des_ede3_ecb",
+            "EVP_CIPHER_CTX_new",
+            "EVP_EncryptInit_ex",
+            "EVP_CIPHER_CTX_set_key_length",
+            "EVP_EncryptUpdate",
+            "EVP_CIPHER_CTX_nid",
+            "EVP_DecryptInit_ex",
+            "EVP_DecryptUpdate",
+            "EVP_CIPHER_CTX_free",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":26,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"9a7bf93d67da1284",
+        "Manufacturer":"Infinidat, Ltd.",
+        "Name":"Infinidat Cryptographic Module",
+        "IssueDate":1776729600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl",
+            "libcrypto.so",
+            "libssl.so",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":8,
+        "TotalOccurrences":25,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"815d19a0553b4947",
+        "Manufacturer":"Riverbed Technology, LLC",
+        "Name":"Riverbed Cryptographic Module",
+        "IssueDate":1747180800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so",
+            "libcrypto",
+            "libssl",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":8,
+        "TotalOccurrences":24,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"83f317efec40450f",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1532044800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "DH_generate_parameters_ex",
+            "OPENSSL_cleanse",
+            "libcrypto.so"
+        ],
+        "FunctionCount":19,
+        "TotalOccurrences":22,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"8fe5aff59d1fb619",
+        "Manufacturer":"Guntermann & Drunck GmbH",
+        "Name":"G&D Cryptographic Module",
+        "IssueDate":1789862400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DH_compute_key",
+            "libcrypto",
+            "libssl",
+            "libssl.so",
+            "libcrypto.so",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":9,
+        "TotalOccurrences":21,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"620e9c1f98e4730c",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1529020800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "DH_generate_parameters_ex",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":17,
+        "TotalOccurrences":20,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e09a7c96d31f51dc",
+        "Manufacturer":"Sunhillo Corporation",
+        "Name":"Sunhillo Cryptographic Module",
+        "IssueDate":1783814400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DH_compute_key",
+            "libcrypto",
+            "libssl",
+            "libssl.so",
+            "libcrypto.so",
+            "openssl\/service_indicator.h",
+            "openssl\/ssl.h",
+            "EVP_CIPHER_CTX",
+            "EVP_MD_CTX"
+        ],
+        "FunctionCount":9,
+        "TotalOccurrences":19,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+            "BoringSSL\/AWS-LC (service_indicator.h)"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ef689ce8aaf80d30",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1502323200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "DH_generate_parameters_ex",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":18,
+        "TotalOccurrences":19,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"cb366b057a5d9e92",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1693440000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DH_generate_parameters_ex",
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":17,
+        "TotalOccurrences":19,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5e27752e101ec179",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1473984000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "DH_generate_parameters_ex",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":18,
+        "TotalOccurrences":19,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"0d884f1a931ecc37",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1506297600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_generate_key",
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "DH_generate_parameters_ex",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":17,
+        "TotalOccurrences":18,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ed816a595caa818a",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CC052V0A with IC dedicated software: Secured Crypto Library Release 2.0",
+        "IssueDate":1228176000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"e571fdec8724bef2",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CC037V0A with IC dedicated software: Secured Crypto Library Release 2.0",
+        "IssueDate":1227744000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f636c56027207065",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CC024V0A, P5CC020V0A, P5SC020V0A, P5CC012V0A all with IC dedicated software: Secured Crypto Library Release 2.0",
+        "IssueDate":1227657600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"440f780c6a06853d",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1693440000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "DH_generate_parameters_ex",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"d9c1554894e18144",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1579651200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "DH_generate_parameters_ex",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"a89bd32e72e6a4fb",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1670025600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "DH_generate_key",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":17,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"9bbf7a2c2940b4c9",
+        "Manufacturer":"McAfee, Inc.",
+        "Name":"McAfee SIEM Cryptographic Module",
+        "IssueDate":1387843200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse",
+            "OPENSSL_malloc"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fdf4d5b05e179bad",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1548806400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "DH_generate_parameters_ex",
+            "OPENSSL_cleanse",
+            "libcrypto.so"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"6219b932485fb627",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1610323200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"374224fbb80782ef",
+        "Manufacturer":"McAfee, Inc.",
+        "Name":"McAfee Virtual SIEM Cryptographic Module",
+        "IssueDate":1387843200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse",
+            "OPENSSL_malloc"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"d4cd013f21bbf4b5",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1576195200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "DH_generate_parameters_ex",
+            "OPENSSL_cleanse",
+            "libcrypto.so"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"984118abc8347816",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1681689600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "DH_generate_key",
+            "EC_KEY_generate_key",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":16,
+        "TotalOccurrences":16,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f534767ef020fbba",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CD144V0B with IC Dedicated Software, Secured Crypto Library Release 2.0",
+        "IssueDate":1215043200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f2b283f9bc609256",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"Crypto Library V2.2 on P5CD080V0B \/ P5CN080V0B \/ P5CC080V0B \/ P5CC073V0B",
+        "IssueDate":1276214400000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"abcfbd9c65e98dd9",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CD080V0B with Dedicated software: Secured Crypto Library Release 2.0",
+        "IssueDate":1213315200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"84bab367a6ed29e1",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP Smart Card Controller P5CD040V0B with IC dedicated software: Secured Crypto Library Release 2.0 to EAL5+",
+        "IssueDate":1214438400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ec451df8517795d7",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"Crypto Library V2.2 on P5CC037V0A",
+        "IssueDate":1280966400000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"408a880c854efce7",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Samsung BoringSSL Cryptographic Module",
+        "IssueDate":1608508800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "DSA_do_sign",
+            "DSA_do_verify",
+            "ECDSA_do_sign",
+            "ECDSA_do_verify",
+            "ECDSA_sign",
+            "ECDSA_verify",
+            "HMAC_Init_ex",
+            "HMAC_Update",
+            "HMAC_Final",
+            "RSA_sign",
+            "RSA_verify",
+            "RSA_private_encrypt",
+            "RSA_public_decrypt",
+            "OPENSSL_cleanse",
+            "libcrypto.so"
+        ],
+        "FunctionCount":15,
+        "TotalOccurrences":15,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"dfb27f600f50967e",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"Crypto Library V2.2 on P5CD040V0B \/ P5CC040V0B \/ P5CD020V0B \/ P5CC021V0B \/ P5CD012V0B",
+        "IssueDate":1279238400000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":14,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"7b4c3b903da50f31",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1725926400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":14,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"315ef9b31f21c15d",
+        "Manufacturer":"ExtraHop Networks, Inc.",
+        "Name":"ExtraHop Cryptographic Module",
+        "IssueDate":1693180800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"77b8f4d1dca2d16d",
+        "Manufacturer":"Palo Alto Networks",
+        "Name":"Palo Alto Networks Core Crypto Module",
+        "IssueDate":1783900800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libssl.so",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"7e07ae1a0cd3da38",
+        "Manufacturer":"Sterling Commerce, Inc.",
+        "Name":"Sterling Crypto-C",
+        "IssueDate":1204243200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll",
+            "libcrypto.so",
+            "libssl.so",
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":6,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"176f3a69734ec3ec",
+        "Manufacturer":"LG Electronics, Inc.",
+        "Name":"LG Electronics, Inc. G6 Smartphone",
+        "IssueDate":1493683200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"136fed7f0c7770dd",
+        "Manufacturer":"SafeNet Inc.",
+        "Name":"SafeNet DataSecure Appliance i416, i426, and i116 Release 4.5.2 (formerly Ingrian Networks DataSecure Appliance i416, i426, and i116 Release 4.5.2)",
+        "IssueDate":1211241600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"1beaaa02391a2540",
+        "Manufacturer":"LG Electronics, Inc.",
+        "Name":"LG Electronics Inc. V30 Smartphone",
+        "IssueDate":1509667200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":10,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"52a6932d5af5316a",
+        "Manufacturer":"Symantec Corporation",
+        "Name":"Symantec Scanner Cryptographic Module",
+        "IssueDate":1352073600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_malloc",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":9,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ba6d3b2e12a6de24",
+        "Manufacturer":"Honeywell International Inc.",
+        "Name":"Honeywell Mobility Edge\u2122 BoringCrypto",
+        "IssueDate":1614211200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":9,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f23028179d995bd5",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.7 NXP Smart Card Controller P5CD081V1D and its major configurations",
+        "IssueDate":1355875200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":9,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e734ce8f057a2863",
+        "Manufacturer":"Fortinet Inc.",
+        "Name":"FortiClient Crypto Module v1.0",
+        "IssueDate":1786924800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3f7e05acc03b0893",
+        "Manufacturer":"Ericsson Enterprise Wireless Solutions, Inc.",
+        "Name":"Cradlepoint Cryptographic Module",
+        "IssueDate":1724112000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so",
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":4,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"258416521c6d8d44",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.6 on P5CD080V0B \/ P5CN080V0B \/ P5CC080V0B \/ P5CC073V0B",
+        "IssueDate":1291334400000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"14df804ae01669ab",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.7\/V2.9 on SmartMX P5CD016\/021\/041\/051 and P5Cx081 V1A \/V1A(s)",
+        "IssueDate":1405468800000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"60367531791af0ca",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"Crypto Library V2.6 on P5CD040V0B \/ P5CC040V0B \/ P5CD020V0B \/ P5CC021V0B \/ P5CD012V0B",
+        "IssueDate":1294358400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"36f5ed4050c8ae40",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.7 on P5CD081V1A \/ P5CC081V1A \/ P5CN081V1A \/ P5CD041V1A \/ P5CD021V1A \/ P5CD016V1A",
+        "IssueDate":1290124800000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f05965bff4895d84",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.7\/2.9 on SmartMX P5Cx128\/P5Cx145 V0v\/ VOB(s)",
+        "IssueDate":1405468800000,
+        "CryptoLibraries":[
+            "Generic"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"fd8c9678d01ffda7",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.7 on P5CD145V0A, MSO \/ P5CC145V0A, MSO \/ P5CD128V0A, MSO \/ P5CC128V0A, MSO",
+        "IssueDate":1302480000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":8,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f977d70e1882b3a2",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"Crypto Library V2.6 on P5CC008V1A and P5CC012V1A",
+        "IssueDate":1341532800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"d08553fbe31da772",
+        "Manufacturer":"Amazon Web Services, Inc",
+        "Name":"AWS-LC 3 Cryptographic Module (dynamic)",
+        "IssueDate":1780444800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free",
+            "EVP_PKEY_free"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"1e0b605fa2f516ae",
+        "Manufacturer":"Amazon Web Services, Inc",
+        "Name":"AWS-LC 3 Cryptographic Module (static)",
+        "IssueDate":1780617600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free",
+            "EVP_PKEY_free"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"210c4b3f4e5c7040",
+        "Manufacturer":"Amazon Web Services, Inc",
+        "Name":"AWS-LC Cryptographic Module (dynamic)",
+        "IssueDate":1769385600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"4dca6e902ba3d8ca",
+        "Manufacturer":"F5, Inc.",
+        "Name":"Cryptographic Module for BIG-IP \u00ae",
+        "IssueDate":1674172800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"4681639741f445ef",
+        "Manufacturer":"Amazon Web Services Inc.",
+        "Name":"AWS-LC Cryptographic Module (dynamic)",
+        "IssueDate":1784505600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "libcrypto.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"c9f5d1117c2eaf86",
+        "Manufacturer":"F5, Inc.",
+        "Name":"Cryptographic Module for BIG-IP \u00ae",
+        "IssueDate":1673136000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"64405ee1d117aafa",
+        "Manufacturer":"CommScope Technologies LLC",
+        "Name":"R650-US Access Point, R650-WW Access Point, R750 Access Point, R850 Access Point, T750SE Access Point, T750 Access Point, and T750-WW Access Point",
+        "IssueDate":1672704000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OpenSSL\/OpenSSH"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":7,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"c89fe5b7a007332d",
+        "Manufacturer":"SafeLogic, Inc.",
+        "Name":"CryptoComply Module based on AWS-LC FIPS",
+        "IssueDate":1789516800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free",
+            "EVP_PKEY_free"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"481d60bc802f5158",
+        "Manufacturer":"CommScope Technologies LLC",
+        "Name":"R650-US Access Point, R650-WW Access Point, R750 Access Point, R850 Access Point, T750SE Access Point, T750 Access Point, and T750-WW Access Point",
+        "IssueDate":1640563200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OpenSSL\/OpenSSH"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":7,
+        "OpenSSLTextMentions":7,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"21445af8f7acc5de",
+        "Manufacturer":"Amazon Web Services Inc.",
+        "Name":"AWS-LC Cryptographic Module (static)",
+        "IssueDate":1727740800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free"
+        ],
+        "FunctionCount":4,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3ed23197a0865b6d",
+        "Manufacturer":"F5 Networks",
+        "Name":"Cryptographic Module for BIG-IP\u00ae",
+        "IssueDate":1494806400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"28789a01958becdb",
+        "Manufacturer":"Zhejiang Dahua Technology Co., Ltd.",
+        "Name":"DHSSL Cryptographic Module",
+        "IssueDate":1651795200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libssl.so",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"bef1552cfd69363c",
+        "Manufacturer":"SonicWall, Inc.",
+        "Name":"SonicWALL SMA Series v12.1 SMA 6210, SMA 7210",
+        "IssueDate":1578614400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "Libcrypto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"7bd341f08056de72",
+        "Manufacturer":"Barracuda Networks",
+        "Name":"Barracuda Cryptographic Software Module",
+        "IssueDate":1445472000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_generate_key",
+            "EVP_aes_128_ccm",
+            "EVP_aes_192_ccm",
+            "EVP_aes_256_ccm",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"4cf84afda7c7875b",
+        "Manufacturer":"SonicWall, Inc.",
+        "Name":"SonicWALL SMA Series v12.1 EX-9000, SMA 6200, SMA 7200",
+        "IssueDate":1544400000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "Libcrypto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b5518d4f3fea8800",
+        "Manufacturer":"F5 Networks",
+        "Name":"Cryptographic Module for BIG-IP \u00ae",
+        "IssueDate":1578528000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3c9501fa938f3556",
+        "Manufacturer":"AllWipe Oy Ltd.",
+        "Name":"Youwipe Erasure Tool 4 with WipeCenter 4",
+        "IssueDate":1597190400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"6b44c4b4807298f9",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Phones on Android 10",
+        "IssueDate":1582243200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"1ccd71223f0163ed",
+        "Manufacturer":"Motorola Solutions, Inc.",
+        "Name":"Motorola Lex L11",
+        "IssueDate":1579737600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"157dfb97aa089aa7",
+        "Manufacturer":"AllWipe Oy Ltd.",
+        "Name":"YouWipe Data Erasure Tool 5.0 and WipeCenter Console 5.0",
+        "IssueDate":1757289600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"7b62f56f7f0ff1ba",
+        "Manufacturer":"Google LLC",
+        "Name":"Pixel 3\/3XL",
+        "IssueDate":1563494400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes",
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":6,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"04222ea3e14cb120",
+        "Manufacturer":"Attachmate Corporation",
+        "Name":"Attachmate Crypto Module",
+        "IssueDate":1178236800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_PKEY_free",
+            "RSA_free",
+            "DSA_free",
+            "DH_free",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":5,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"60f256c7ccbc7480",
+        "Manufacturer":"Attachmate Corporation",
+        "Name":"Attachmate Cryptographic Module",
+        "IssueDate":1223337600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EVP_PKEY_free",
+            "RSA_free",
+            "DSA_free",
+            "DH_free",
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":5,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"15d45f2509126484",
+        "Manufacturer":"Sensage, Inc.",
+        "Name":"CryptoCore Module",
+        "IssueDate":1328486400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so",
+            "libSSL"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":5,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"4817ddb54d7a527a",
+        "Manufacturer":"F5, Inc.",
+        "Name":"Cryptographic Module for BIG-IP \u00ae",
+        "IssueDate":1683072000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":5,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e0a19cbdac9fda12",
+        "Manufacturer":"Amazon Web Services Inc.",
+        "Name":"AWS-LC Cryptographic Module (dynamic)",
+        "IssueDate":1723593600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key_ex",
+            "EC_KEY_generate_key",
+            "RSA_free",
+            "EC_KEY_free",
+            "libcrypto.so"
+        ],
+        "FunctionCount":5,
+        "TotalOccurrences":5,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "AWS-LC"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"abe0ccdc1f6402ee",
+        "Manufacturer":"Fortinet Technologies Inc.",
+        "Name":"FortiClient Crypto Library",
+        "IssueDate":1734652800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"12bdc9eedc0abc0d",
+        "Manufacturer":"VMware, Inc.",
+        "Name":"ACE Encryption Engine",
+        "IssueDate":1194307200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "ssleay32.dll",
+            "libeay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"2e311bdd3398de22",
+        "Manufacturer":"OSNEXUS Corporation",
+        "Name":"OSNEXUS Crypto Library",
+        "IssueDate":1648252800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"480b155886258284",
+        "Manufacturer":"Hewlett Packard Enterprise",
+        "Name":"HPE Aruba Networking Virtual Intranet Access (VIA) Client version 4.7",
+        "IssueDate":1787184000000,
+        "CryptoLibraries":[
+            "libgcrypt"
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":3,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"5f4852891f6c0a97",
+        "Manufacturer":"Autek Ingenier\u00eda, S.L.",
+        "Name":"PSTgateways Framework version 4.16.8-A",
+        "IssueDate":1768521600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libssl.so",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ee932b02fc14995a",
+        "Manufacturer":"BitArmor Systems, Inc.",
+        "Name":"BitArmor Secure Cryptographic Engine",
+        "IssueDate":1259539200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"29b72132c16974cc",
+        "Manufacturer":"MolecuLight Inc.",
+        "Name":"MolecuLightDX Cryptographic Module",
+        "IssueDate":1790553600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":4,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"35b486dc8bc6ba84",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3A080 and J2A080 Secure Smart Card Controller Revision 3",
+        "IssueDate":1301529600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"749c19baf65c3e87",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3A040 & J2A040 Secure Smart Card Controller Revision 3",
+        "IssueDate":1306281600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"cf073ce3aff33e9a",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Note 7 MDFPP",
+        "IssueDate":1476403200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3fabe0acf82de01f",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"Micardo V3.6 R1.0 Tachograph V2.0",
+        "IssueDate":1302134400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"9d1d7978ad7a3a6f",
+        "Manufacturer":"NXP Semiconductors",
+        "Name":"NXP J3A080 v2.4.1 Secure Smart Card Controller (JCOP v2.4.1)",
+        "IssueDate":1235001600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"cabd9ee16cc158db",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3A081, J2A081 and J3A041 Secure Smart Card Controller Revision 3",
+        "IssueDate":1302048000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"6275de9dcd3657b7",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices with Android 7",
+        "IssueDate":1497484800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"49d8d21d5e65f600",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices on Android 7.1",
+        "IssueDate":1510704000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"d21cea57447c0fff",
+        "Manufacturer":"Pure Storage, Inc.",
+        "Name":"Purity Encryption Module",
+        "IssueDate":1736121600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libcrypto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"eae2ae41a23c2d00",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3A128 and J3A095 Secure Smart Card Controller Revision 3",
+        "IssueDate":1302825600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"43c727ee4fc72505",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE Crypto-C ME Toolkit Module",
+        "IssueDate":1046995200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_generate_parameters",
+            "DSA_free",
+            "BN_rand"
+        ],
+        "FunctionCount":3,
+        "TotalOccurrences":3,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3cb11fb7adbdf59a",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Devices on Android 16",
+        "IssueDate":1778544000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d6a50e8ce93340fd",
+        "Manufacturer":"Motorola Mobility LLC",
+        "Name":"Motorola Mobility LLC Mobile Devices on Android 15",
+        "IssueDate":1786406400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3a0ec6b7c77d4198",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra Q-6690 Devices on Android 15",
+        "IssueDate":1778803200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"8322a9e33b3ebd0d",
+        "Manufacturer":"Getac, Inc.",
+        "Name":"Getac Devices on Android 15",
+        "IssueDate":1789084800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"b55eff348fbbef00",
+        "Manufacturer":"NTT Data Corporation",
+        "Name":"Xaica-AlphaPLUS",
+        "IssueDate":1549065600000,
+        "CryptoLibraries":[
+            "Neslib"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"8a461df11fe02a7e",
+        "Manufacturer":"3e Technologies International, Inc.",
+        "Name":"3eTI 3e-525A-3 Access System",
+        "IssueDate":1158278400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "ssleay32.dll",
+            "libeay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"fd3f6599f271d489",
+        "Manufacturer":"Motorola Mobility LLC",
+        "Name":"Motorola Mobility LLC Mobile Devices on Android 14",
+        "IssueDate":1749168000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0eee3c73c92cfe80",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra Devices on Android 14",
+        "IssueDate":1759968000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"dd84dd91a257a3b6",
+        "Manufacturer":"Motorola Solutions, Inc.",
+        "Name":"Motorola Solutions, Inc. LexL11 on Android 13",
+        "IssueDate":1771200000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"aff4b5855447e95d",
+        "Manufacturer":"Unisys Corporation",
+        "Name":"Unisys OS 2200 Cryptographic Library",
+        "IssueDate":1536796800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_free"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"54a462dce3c1abb2",
+        "Manufacturer":"Pure Storage, Inc.",
+        "Name":"Purity Encryption Module",
+        "IssueDate":1446163200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libcrypto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3a3a99897cabe3d5",
+        "Manufacturer":"NetApp, Inc.",
+        "Name":"NetApp Cryptographic Security Module",
+        "IssueDate":1464307200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_add"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3033cf66fa728da7",
+        "Manufacturer":"Fortinet, Inc.",
+        "Name":"FortiClient Crypto Module",
+        "IssueDate":1211414400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5538e771949ffec1",
+        "Manufacturer":"Fortinet, Inc.",
+        "Name":"FortiClient Crypto Module",
+        "IssueDate":1211414400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d5dfc1265ca7919f",
+        "Manufacturer":"Microsoft Corporation",
+        "Name":"Microsoft Corporation Surface Duo 2 on Android 11",
+        "IssueDate":1651104000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"8923ae99cb281ff9",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Devices on Android 13",
+        "IssueDate":1674518400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"add0d404f0e8ab52",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra SM6375 Devices on Android 11",
+        "IssueDate":1682553600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"876bc6f3237d755c",
+        "Manufacturer":"Panasonic Connect of North America",
+        "Name":"TOUGHBOOK N1 on Android 9",
+        "IssueDate":1623369600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"29f8b0e8b53d064c",
+        "Manufacturer":"Panasonic Connect of North America",
+        "Name":"Panasonic Connect TOUGHBOOK Devices on Android 11",
+        "IssueDate":1671148800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f3322ff6a069c26a",
+        "Manufacturer":"S21SEC",
+        "Name":"BITACORA v4.0.2",
+        "IssueDate":1230508800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libssl"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3223a2668ffe26ec",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung SCrypto Cryptographic Module",
+        "IssueDate":1784505600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d4f9ef7c55de1c70",
+        "Manufacturer":"Palo Alto Networks, Inc.",
+        "Name":"Palo Alto Networks WF-500 with WildFire 8.1.11",
+        "IssueDate":1580342400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OpenSSL\/OpenSSH"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"38ea1fb378fda34a",
+        "Manufacturer":"Palo Alto Networks, Inc.",
+        "Name":"Palo Alto Networks WF-500 WildFire 10.1",
+        "IssueDate":1659571200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OpenSSL\/OpenSSH"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":2,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ed436609549b3fbd",
+        "Manufacturer":"SailPoint Technologies, Inc.",
+        "Name":"SailPoint File Access Manager v8.3 SP5",
+        "IssueDate":1693440000000,
+        "CryptoLibraries":[
+            "BouncyCastle"
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"db9b7a39de5b5d06",
+        "Manufacturer":"Varonis Systems, Inc.",
+        "Name":"Varonis Data Security Platform v8.6",
+        "IssueDate":1677715200000,
+        "CryptoLibraries":[
+            "BouncyCastle"
+        ],
+        "MatchedFunctions":[
+            "ssleay32.dll",
+            "libeay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"de74e578a13ead55",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices with Android 6",
+        "IssueDate":1465430400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"e017676dfb8211f3",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy S7 Devices on Android 6",
+        "IssueDate":1464134400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ab190876585aa899",
+        "Manufacturer":"Motorola Mobility LLC",
+        "Name":"Motorola Mobility LLC Mobile Devices on Android 13",
+        "IssueDate":1703203200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0e6cf028b0ff65e3",
+        "Manufacturer":"sayTEC AG",
+        "Name":"sayTRUST Secure Access System v0.6",
+        "IssueDate":1762300800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d822fb20999bc557",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Devices on Android 14",
+        "IssueDate":1711497600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"29aac4bd71569cf0",
+        "Manufacturer":"Zebra Technologies",
+        "Name":"Zebra Devices on Android 13",
+        "IssueDate":1723075200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"809ce4bba04ff29d",
+        "Manufacturer":"Secui.com Corp.",
+        "Name":"SECUINXG V1.6",
+        "IssueDate":1182470400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "SSL_connect",
+            "SSL_get_peer_certificate"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"e531c18a474548f8",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"MICARDO V3.5 R1.0 eHC V1.0 (QES)",
+        "IssueDate":1276214400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0c87a9e24784c5ba",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"MICARDO V3.5 R1.0 eHC V1.0 (QES komplettierbar)",
+        "IssueDate":1268006400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"542812bed50463da",
+        "Manufacturer":"Secui.com Corp.",
+        "Name":"NXG IPS 6000 V1.6",
+        "IssueDate":1182470400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "SSL_connect",
+            "SSL_get_peer_certificate"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3ef4d9faf1ee6b0c",
+        "Manufacturer":"Versa Networks, Inc.",
+        "Name":"Versa Operating System (VOS) 21.2.3 with OS SPACK 20230511 running on Versa Cloud Services Gateways",
+        "IssueDate":1699920000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "Libcrypto.so",
+            "Libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"a91d0202506bb11c",
+        "Manufacturer":"Worldlline Healthcare GmbH",
+        "Name":"Mobiles eHealth Kartenterminal ORGA 930 M online, 4.9.0: 1.0.0",
+        "IssueDate":1674000000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3638b1cccf844a46",
+        "Manufacturer":"Zebra Technologies",
+        "Name":"Zebra 4490 Devices on Android 13",
+        "IssueDate":1740960000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3f068d5f5a0a80f4",
+        "Manufacturer":"sayTEC AG",
+        "Name":"sayTRUST Secure Access System v0.6",
+        "IssueDate":1762300800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libssl"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ba3faf4e8ec21084",
+        "Manufacturer":"Huawei Device Co., Ltd.",
+        "Name":"Huawei Mobile Devices (P40 series) with EMUI 11.0",
+        "IssueDate":1635292800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"4646e2bd9bf0b59d",
+        "Manufacturer":"Huawei Device Co., Ltd.",
+        "Name":"Huawei Mate 40 Pro (M40 pro) with EMUI 11.0",
+        "IssueDate":1642636800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0574a45fc35fcb6b",
+        "Manufacturer":"Honeywell International Inc.",
+        "Name":"Honeywell Mobility Edge Mobile Computer SDM660 on Android 13",
+        "IssueDate":1744070400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"35379543225faed8",
+        "Manufacturer":"Honeywell International Inc.",
+        "Name":"Honeywell Mobility Edge Mobile Computer CT47 on Android 13",
+        "IssueDate":1743984000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3e8369e752fc2e26",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Devices on Android 15",
+        "IssueDate":1744243200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"b5295a979d90175c",
+        "Manufacturer":"KATIM L.L.C.",
+        "Name":"KATIM X3M on KATIM OS 13",
+        "IssueDate":1763769600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"a314a8b8c9309a03",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"MICARDO V3.5 R1.0 eHC V1.0",
+        "IssueDate":1259280000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"21112bdf142ed68f",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"MICARDO V3.4 R1.0 eHC V1.0",
+        "IssueDate":1242000000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d44f04eb40d0ad24",
+        "Manufacturer":"Ingenico Healthcare GmbH",
+        "Name":"ORGA 930 M online and Cherry ST-1530",
+        "IssueDate":1537833600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f92433ca9ca5a957",
+        "Manufacturer":"NTT Data Corporation \/ STMicroelectronics.",
+        "Name":"Xaica-AlphaPLUSVersion 0116 (PQV) \/ 0100 (SPI-001 03)",
+        "IssueDate":1427760000000,
+        "CryptoLibraries":[
+            "Neslib"
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0db2751816f820ce",
+        "Manufacturer":"Sagem Orga GmbH",
+        "Name":"MICARDO V3.5 R1.0 eHC V1.1",
+        "IssueDate":1268006400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d66494707e303a2c",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Phones on Android 12.0",
+        "IssueDate":1646006400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"c0537e7a47508c5f",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra Devices on Android 11",
+        "IssueDate":1643068800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"3c66a97327fa3745",
+        "Manufacturer":"Motorola Solutions, Inc.",
+        "Name":"Motorola Lex L11 on Android 11",
+        "IssueDate":1643068800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"2777dc1c4a736e2d",
+        "Manufacturer":"Google LLC",
+        "Name":"Google Pixel Phones on Android 11.0",
+        "IssueDate":1612742400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"d7d09da78efbb350",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra Devices on Android 10",
+        "IssueDate":1614643200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"eb8d814305e45994",
+        "Manufacturer":"Honeywell International Inc.",
+        "Name":"Honeywell Mobility Edge Mobile Computer on Android 9",
+        "IssueDate":1614729600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f101312fea6df351",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices with Android 9 - Fall",
+        "IssueDate":1572825600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"154bc23e621ddb8c",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices on Android 9",
+        "IssueDate":1564704000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"4c727c29fb011275",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Tab Active2 on Android 8.1",
+        "IssueDate":1569456000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"dbe773de3de5497b",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices with Android 8 & 8.1",
+        "IssueDate":1545264000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libssl.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ebe4b54890bed9d8",
+        "Manufacturer":"Motorola Mobility LLC",
+        "Name":"Motorola Mobility LLC Mobile Devices on Android 12",
+        "IssueDate":1686873600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"256a1f649084b2fc",
+        "Manufacturer":"Palo Alto Networks, Inc.",
+        "Name":"Palo Alto Networks Core Crypto Module",
+        "IssueDate":1721952000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libssl.so",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"1ae2f3fe573bcfcb",
+        "Manufacturer":"NetApp, Inc.",
+        "Name":"NetApp Cryptographic Security Module",
+        "IssueDate":1662940800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_add"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ea3a03b4971eeb62",
+        "Manufacturer":"McAfee, Inc.",
+        "Name":"McAfee Vulnerability Manager Cryptographic Module",
+        "IssueDate":1398729600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "SSL_library_init"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"8ca1c1cf209e9171",
+        "Manufacturer":"Red Hat\u00ae, Inc.",
+        "Name":"Red Hat Enterprise Linux 8 GnuTLS Cryptographic Module",
+        "IssueDate":1658102400000,
+        "CryptoLibraries":[
+            "GnuTLS",
+            "Nettle"
+        ],
+        "MatchedFunctions":[
+            "SSL_CTX_set_tmp_dh",
+            "SSL_CTX_set_dh_auto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5f60288fa383ac8c",
+        "Manufacturer":"Senetas Corporation Ltd, distributed by Thales SA",
+        "Name":"CE Crypto Module",
+        "IssueDate":1784592000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto",
+            "libcrypto.so"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"051c2e380d07844f",
+        "Manufacturer":"Cocoon Data Holdings Limited",
+        "Name":"Cocoon Data Secure Objects C++ Cryptographic Module Version 1.8",
+        "IssueDate":1374019200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b3dfdc6efe322a6f",
+        "Manufacturer":"RSA, The Security Division of EMC",
+        "Name":"RSA BSAFE Crypto-C ME Toolkit",
+        "IssueDate":1070928000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "DSA_generate_parameters",
+            "DSA_free"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BSAFE"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fee7e1048f980031",
+        "Manufacturer":"Red Hat\u00ae, Inc.",
+        "Name":"Red Hat Enterprise Linux 8 GnuTLS Cryptographic Module",
+        "IssueDate":1674777600000,
+        "CryptoLibraries":[
+            "GnuTLS",
+            "Nettle"
+        ],
+        "MatchedFunctions":[
+            "SSL_CTX_set_tmp_dh",
+            "SSL_CTX_set_dh_auto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"887846b0aa6af194",
+        "Manufacturer":"Fortinet, Inc.",
+        "Name":"FortiClient 5.0 VPN Client",
+        "IssueDate":1453766400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"808b0748b38c67a2",
+        "Manufacturer":"Pure Storage, Inc.",
+        "Name":"Purity Encryption Module",
+        "IssueDate":1639612800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so",
+            "libcrypto"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"a39ff608d7c5bc24",
+        "Manufacturer":"Accellion, Inc.",
+        "Name":"Accellion Secure File Transfer Cryptographic Module",
+        "IssueDate":1281571200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"39938bd5341cf978",
+        "Manufacturer":"Fortinet, Inc.",
+        "Name":"FortiClient 5.0 VPN Client",
+        "IssueDate":1453766400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.dll",
+            "ssleay32.dll"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b281e0d9a45943ce",
+        "Manufacturer":"Beijing JN TASS Technology Co., Ltd.",
+        "Name":"TASS Crypto Engine",
+        "IssueDate":1619049600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_blinding_on"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"fe2592b42a727e97",
+        "Manufacturer":"Dell, Inc.",
+        "Name":"Dell Crypto Library for Dell iDRAC and Dell OME-M",
+        "IssueDate":1665014400000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "ENGINE_set_RAND",
+            "ENGINE_set_default_RAND"
+        ],
+        "FunctionCount":2,
+        "TotalOccurrences":2,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"2d92cc08f22524db",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung BoringCrypto Android 15",
+        "IssueDate":1790121600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"c8d19c283a59544b",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3D081_M59, J2D081_M59, J3D081_M61, J2D081_M61 Secure Smart Card Controller of JCOP V2.4.2 R2",
+        "IssueDate":1375228800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"04872c4b968dd7a7",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Electronics Co., Ltd. Samsung Galaxy Devices on Android 16 \u2013 Fall",
+        "IssueDate":1771977600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"fe20bb2f717e318a",
+        "Manufacturer":"DIGISTOR",
+        "Name":"DIGISTOR TCG OPAL SSC FIPS SSD Series, firmware version SCPG13.0\/ECPG13.0\/ECPM13.1",
+        "IssueDate":1678752000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"b3f5333dcaa9f170",
+        "Manufacturer":"Cisco Systems, Inc.",
+        "Name":"Cisco Nexus 9000 Switch Series with ACI mode, APIC and Nexus 2000 Fabric Extenders, NX-OX v12.3(1f), APIC v2.3(1f)",
+        "IssueDate":1525392000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"8f950717e5915159",
+        "Manufacturer":"Varonis",
+        "Name":"Varonis Data Security Platform 8.6",
+        "IssueDate":1607472000000,
+        "CryptoLibraries":[
+            "BouncyCastle"
+        ],
+        "MatchedFunctions":[
+            "ssleay32"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"121e6919e658192f",
+        "Manufacturer":"DIGISTOR",
+        "Name":"Seagate\u00ae BarraCuda\u2122 515 SSD, Firmware version ECPM13.1",
+        "IssueDate":1678752000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"f50fdd9cdf6b428b",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung Galaxy Devices on Android 8",
+        "IssueDate":1527552000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"04be909d28823208",
+        "Manufacturer":"Cigent Technology, Inc.",
+        "Name":"Cigent Secure SSD Gen 4 M.2 2280, Firmware Version: EIQM50.0",
+        "IssueDate":1769644800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"c5e932f4b56b2210",
+        "Manufacturer":"UD Info Corporation",
+        "Name":"UD Info DB Series SSD Drives, Firmware Version: EIQM50.0",
+        "IssueDate":1762473600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"a26c5b5c2acb189c",
+        "Manufacturer":"UD Info Corporation",
+        "Name":"SSD Drives, Firmware Versions: SCPU13.0\/ECPU13.0\/SCQU15.0\/ECQU15.0",
+        "IssueDate":1739145600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"7c2fca87e8d99418",
+        "Manufacturer":"KLC Group LLC",
+        "Name":"KLC Advantech Drives, Firmware Version: SCPB13.0\/ECPB13.0",
+        "IssueDate":1719273600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_bytes"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"9c4abfb7ef7e0f82",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3D081_M59_DF and J3D081_M61_DF Secure Smart Card Controller Revision 2 of JCOP V2.4.2 R2",
+        "IssueDate":1375228800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"48acce2b4800bb7a",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"NXP J3D145_M59, J2D145_M59, J3D120_M60, J3D082_M60, J2D120_M60, J2D082_M60 Secure Smart Card Controller of JCOP V2.4.2 R2",
+        "IssueDate":1375228800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"ef5701cc183f2e46",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"J3E081_M64, J3E081_M66, J2E081_M64, J3E041_M66, J3E016_M66, J3E016_M64, J3E041_M64 Secure Smart Card Controller Revision 3",
+        "IssueDate":1409011200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"eee0ba6274ab7c60",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"J3E145_M64, J3E120_M65, J3E082_M65, J2E145_M64, J2E120_M65, and J2E082_M65 Secure Smart Card Controller Revision 3",
+        "IssueDate":1409011200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"CC",
+        "ID":"0f76ffd0c75b9402",
+        "Manufacturer":"NXP Semiconductors Germany GmbH Business Line Identification",
+        "Name":"J3E081_M64_DF, J3E081_M66_DF, J3E041_M66_DF, J3E016_M66_DF, J3E041_M64_DF and J3E016_M64_DF Secure Smart Card Controller Revision 3",
+        "IssueDate":1381881600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_sign"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b914d613c73fdf07",
+        "Manufacturer":"Samsung Electronics Co., Ltd.",
+        "Name":"Samsung BoringSSL Android",
+        "IssueDate":1652054400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"33adbae8f83793cf",
+        "Manufacturer":"BAE Systems",
+        "Name":"STOP 8 Kernel Cryptographic Module",
+        "IssueDate":1578355200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.a"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b81d00e65f747a41",
+        "Manufacturer":"bTrade, LLC",
+        "Name":"bTrade Security Module",
+        "IssueDate":1266192000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"79f06f8fde333461",
+        "Manufacturer":"Google, LLC.",
+        "Name":"BoringCrypto SoC",
+        "IssueDate":1677456000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"ae600959378c54c5",
+        "Manufacturer":"EgoSecure GmbH",
+        "Name":"EgoSecure Full Disk Encryption (FDE) Cryptographic Module",
+        "IssueDate":1286409600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libeay32.DLL"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e0850a775c17a870",
+        "Manufacturer":"Simple Access Inc.",
+        "Name":"SSL-100 SDK Accelerator",
+        "IssueDate":1042761600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OpenSSL\/SSLeay"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"1edbf99ceb74ae07",
+        "Manufacturer":"Kasten, Inc.",
+        "Name":"Kasten BoringCrypto",
+        "IssueDate":1686614400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"c91d793d0e481d8b",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Ascom Smartphone BoringCrypto v2",
+        "IssueDate":1680652800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"8a3430bd81b8f235",
+        "Manufacturer":"Google, LLC.",
+        "Name":"BoringCrypto",
+        "IssueDate":1672790400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5626696e19ac4b81",
+        "Manufacturer":"IBM Internet Security Systems, Inc.",
+        "Name":"SiteProtector Cryptographic Module",
+        "IssueDate":1284508800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"b411746bdf09bde7",
+        "Manufacturer":"Avaya, Inc.",
+        "Name":"Avaya BoringCrypto Android",
+        "IssueDate":1633392000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"bfe9c3c5714f2f37",
+        "Manufacturer":"Microsoft Corporation",
+        "Name":"Microsoft BoringCrypto Module",
+        "IssueDate":1655942400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"3df9083769048a26",
+        "Manufacturer":"Motorola Mobility LLC",
+        "Name":"Motorola BoringCrypto Android",
+        "IssueDate":1633478400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"20ee235b5de5b362",
+        "Manufacturer":"Accellion, Inc.",
+        "Name":"Accellion Cryptographic Module",
+        "IssueDate":1374019200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"52018340d5255b7d",
+        "Manufacturer":"Symantec Corporation",
+        "Name":"Symantec Cryptographic Module",
+        "IssueDate":1407369600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"0252656a94fd2e92",
+        "Manufacturer":"Ascom Sweden AB",
+        "Name":"Ascom Smartphone BoringCrypto",
+        "IssueDate":1659916800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"061a17b4051d9228",
+        "Manufacturer":"DataStax, Inc.",
+        "Name":"Datastax BoringCrypto Module",
+        "IssueDate":1701302400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"9cf876e274c8bbc3",
+        "Manufacturer":"Panasonic Corporation of North America",
+        "Name":"Panasonic BoringCrypto Module",
+        "IssueDate":1656028800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"6900c3ccdcfc05cf",
+        "Manufacturer":"Broadcom Inc.",
+        "Name":"VMware's BoringCrypto Module",
+        "IssueDate":1713916800000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"6aea7c4f81ebe6ea",
+        "Manufacturer":"Spectralink",
+        "Name":"Spectralink Cryptographic Module for BoringSSL",
+        "IssueDate":1623110400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"f1db6e1910603d9f",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Honeywell Mobility EdgeTM BoringCrypto",
+        "IssueDate":1712016000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"eaa7de80f155ad3c",
+        "Manufacturer":"SUSE LLC",
+        "Name":"SUSE Rancher Kubernetes Cryptographic Library",
+        "IssueDate":1712880000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"2a31dee3cd372662",
+        "Manufacturer":"Google, LLC.",
+        "Name":"BoringCrypto Android",
+        "IssueDate":1644969600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"5325302e6a26d6e6",
+        "Manufacturer":"IBM Internet Security Systems, Inc.",
+        "Name":"SiteProtector Cryptographic Module",
+        "IssueDate":1361232000000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RSA_generate_key"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e41e141d6715f7ad",
+        "Manufacturer":"Zebra Technologies Corporation",
+        "Name":"Zebra BoringSSL Cryptographic Module",
+        "IssueDate":1616630400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"edbf8a7109ded44c",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Symantec DLP Cryptographic Module",
+        "IssueDate":1422403200000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "OPENSSL_cleanse"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":1,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"OpenSSL named, not in keywords"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"f4dd301311d96b70",
+        "Manufacturer":"Secure Computing Corporation (Wholly owned subsidiary of McAfee, Inc.)",
+        "Name":"Cryptographic Module for SecureOS\u00ae",
+        "IssueDate":1142985600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"f66939aed19dcd45",
+        "Manufacturer":"[email\u00a0protected]",
+        "Name":"Motorola BoringCrypto Android",
+        "IssueDate":1663200000000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"e0b1056a9c77fe9a",
+        "Manufacturer":"Google, LLC.",
+        "Name":"BoringCrypto Android",
+        "IssueDate":1606867200000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"2f74d62c5e51079f",
+        "Manufacturer":"Secure Computing Corporation (Wholly owned subsidiary of McAfee, Inc.)",
+        "Name":"Cryptographic Module for SecureOS\u00ae v9.7.1",
+        "IssueDate":1206921600000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"149546d70fd6eeb0",
+        "Manufacturer":"Oracle Corporation",
+        "Name":"Oracle Cloud Infrastructure for BoringCrypto",
+        "IssueDate":1682553600000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"d82e950a6d46a584",
+        "Manufacturer":"Samsung Electronic Co. Ltd.",
+        "Name":"Samsung BoringSSL Android",
+        "IssueDate":1618790400000,
+        "CryptoLibraries":[
+            "BoringSSL"
+        ],
+        "MatchedFunctions":[
+            "libcrypto.so"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+            "BoringSSL"
+        ],
+        "Classification":"OpenSSL derivative"
+    },
+    {
+        "Dataset":"FIPS",
+        "ID":"00f3ca2ec864017e",
+        "Manufacturer":"Sony Mobile Communications, Inc.",
+        "Name":"Xperia Cryptographic Module",
+        "IssueDate":1472428800000,
+        "CryptoLibraries":[
+
+        ],
+        "MatchedFunctions":[
+            "RAND_set_rand_method"
+        ],
+        "FunctionCount":1,
+        "TotalOccurrences":1,
+        "OpenSSLTextMentions":0,
+        "DerivedLibraries":[
+
+        ],
+        "Classification":"API names only"
+    }
+]
