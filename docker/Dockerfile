@@ -23,12 +23,16 @@ RUN apt-get update && \
 RUN pip install --no-cache-dir \
     jupyterlab==4.* \
     notebook==7.* \
-    spacy==3.*
+    spacy==3.8.*
+
+RUN pip install --no-cache-dir git+https://github.com/crocs-muni/sec-certs.git
 
 # =========================
-# 3. sec-certs 
+# 3. Jupyter MCP server support (lets Claude Code drive notebooks)
 # =========================
-RUN pip install --no-cache-dir sec-certs
+RUN pip install --no-cache-dir \
+    jupyter-collaboration \
+    jupyter-mcp-tools
 
 # =========================
 # 4. spaCy model (explicit versioning style)
@@ -36,7 +40,7 @@ RUN pip install --no-cache-dir sec-certs
 RUN python -m spacy download en_core_web_sm
 
 # =========================
-# 5. Java kernel (IJava)
+# 5. Java kernel (IJava) — v1.3.0 is the latest release
 # =========================
 RUN curl -L https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-1.3.0.zip -o /tmp/ijava.zip && \
     unzip /tmp/ijava.zip -d /tmp/ijava && \
