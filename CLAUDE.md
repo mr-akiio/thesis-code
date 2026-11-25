@@ -20,12 +20,13 @@ docker-compose up                 # JupyterLab on http://127.0.0.1:8888 (no toke
 ## Notebooks
 
 - `combined_cc_fips.ipynb` is the main notebook referenced by the README. It loads both datasets, builds per-library mention DataFrames via `src.utils`, and produces the figures saved to `notebooks/img/`.
-- `openssl_api_detection.ipynb` (current branch work) finds certificates whose texts use OpenSSL API names (from `src/openssl_man3.json`, filtered by prefix such as `SSL_` or `EVP_`) without declaring OpenSSL in their keywords. Results are written to `notebooks/results/` as CSV and JSON.
+- `openssl_api_detection.ipynb` finds certificates whose texts use OpenSSL API names (from `src/openssl_man3.json`, filtered by prefix such as `SSL_` or `EVP_`) without declaring OpenSSL in their keywords. Results are written to `notebooks/results/` as CSV and JSON.
+- `country_algorithm_analysis.ipynb` (in progress on the `country_algorithm_analysis` branch) groups the crypto algorithms mentioned in certificates by country: the CC scheme for CC, and the vendor HQ country for FIPS 140 (`vendor_country` in `src/unification_dictionaries.py`; unmapped vendors are `Unknown`). It builds per-country algorithm heatmaps (overall, per CC category, and by issue period), country-distinctive algorithms by lift, OpenSSL adoption by country, the OpenSSL-vs-other algorithm gap, and OpenSSL's role in national ciphers (SEED, ARIA, Camellia, SM4, GOST). The algorithm extraction and false-positive filtering (`FALSE_POSITIVE_ALGORITHMS`, `CONTEXT_CHECKED_ALGORITHMS`) live in `src/utils.py` (`get_cc_algorithm_mentions` / `get_fips_algorithm_mentions`).
 - `openssl_cc.ipynb` / `openssl_fips.ipynb` are early exploratory stubs. Note that they use `../datasets/` paths, unlike the others.
 
 ## Data
 
-- `notebooks/datasets/` (gitignored, several GB) holds `CC_dataset.json`, `FIPS_dataset.json`, the extracted PDF/txt artifacts, and auxiliary datasets. Load with `CCDataset.from_json(...)` / `FIPSDataset.from_json(...)` and set `.root_dir = Path("./datasets")` so artifact paths resolve. Avoid `from_web()` cells unless a fresh download is intended, because the FIPS artifacts alone are about 5 GB.
+- `notebooks/datasets/` (gitignored, several GB) holds `CC_dataset.json`, `FIPS_dataset.json`, the extracted PDF/txt artifacts, and auxiliary datasets. Load with `CCDataset.from_json(...)` / `FIPSDataset.from_json(...)` and set `.root_dir = Path("./datasets")` so artifact paths resolve. To download the datasets, run `python src/download_datasets.py [cc] [fips] [--force]` from `notebooks/` inside the container. It calls `from_web()` with artifacts and auxiliary datasets, and skips any dataset whose JSON already exists unless you pass `--force`. Don't put `from_web()` calls back into notebooks, and don't force a re-download unless a fresh copy is actually needed, because the FIPS artifacts alone are about 5 GB.
 - Do not modify anything under `notebooks/datasets/`.
 - The `sec-certs-schema` skill documents the certificate object model, keyword-dict shapes, the on-disk artifact layout, and pitfalls.
 
