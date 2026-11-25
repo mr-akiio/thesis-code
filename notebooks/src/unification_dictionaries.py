@@ -197,3 +197,73 @@ suffixes_to_remove = [
 
         'incorporated',
     ]
+
+
+# Country of each FIPS vendor's group headquarters, keyed on the unified manufacturer name
+# (the output of process_manufacturer_names). FIPS data has no country field, so this is
+# filled by hand for the vendors with the most certificates. Codes follow the CC scheme
+# convention (e.g. 'UK', not 'GB') so CC and FIPS countries can be compared directly.
+# Vendors missing here are reported as 'Unknown'.
+vendor_country = {
+    # United States
+    **dict.fromkeys([
+        'Cisco Systems', 'Microsoft', 'Juniper Networks', 'HPE Juniper Networking', 'SafeNet',
+        'Motorola', 'Fortinet', 'Hewlett Packard (HP)', 'IBM', 'McAfee', 'Oracle', 'Red Hat',
+        'Dell', 'Apple', 'Palo Alto Networks', 'Aruba', 'Google', 'Qualcomm Technologies',
+        'Entrust', 'Brocade Communications Systems', 'EMC', 'Amazon Web Services', 'Pitney Bowes',
+        'F5 Networks', 'VMware', 'Fortress™ Technologies', 'SonicWall', 'Symantec Corporation',
+        'Symantec', 'SPYRUS', 'SafeLogic', 'Trellix', 'Seagate Technology LLC',
+        '3e Technologies International', 'FireEye', 'Intel Corporation', 'Blue Coat® Systems',
+        'Zebra Technologies Corporation', 'Apricorn', 'Ciena', 'Mocana Corporation',
+        'Western Digital Corporation', 'Western Digital Technologies', 'Kanguru Solutions',
+        'Ruckus Wireless', 'Ruckus Wireless LLC', 'Arista Networks', 'Advanced Micro Devices (AMD)',
+        'Forcepoint', 'LogRhythm', 'Marvell Semiconductor', 'Marvell', 'Kingston Technology Company',
+        'Kingston Technology', 'Imation Corp.', 'Sun Microsystems', 'Cryptek', 'Accellion', 'NetApp',
+        'Avaya', 'Riverbed Technology', 'Ctrl IQ', 'WatchGuard', 'Proofpoint Inc.', 'Rambus Inc.',
+        'Certes Networks', 'Athena Smartcard', 'CommScope Technologies LLC', 'Hughes Network Systems',
+        'Nutanix', 'Vormetric', 'Cavium Networks', 'HGST', 'Gigamon Inc.', 'Broadcom Inc.',
+        'Broadcom', 'Cambium Networks', 'DataLocker Inc.', 'CipherOptics Inc.', 'eIQnetworks',
+        'M/A Com', 'NetScreen Technologies', 'Lucent Technologies', 'DocuSign', 'General Dynamics',
+        'DigiCert', 'Cloudlinux Inc.', 'Cloud Linux Software', 'L3Harris Technologies',
+        'Honeywell International Inc.', 'PGP Corporation', 'Futurex', 'ActivCard',
+        'Dallas Semiconductor', 'Pulse Secure', 'Harris Corporation', 'Dolby Laboratories',
+        'Lexmark', 'Aviat Networks', 'HID Global', 'Corsec Security',
+        'Allegro Software Development Corporation', 'Singlewire Software', 'EF Johnson Technologies',
+        'E.F. Johnson Co.', 'Extreme Networks', 'Pure Storage', 'Cloudera', 'ViaSat',
+        'Vocera Communications', 'Unisys Corporation', 'UTC Fire & Security Americas Corporation',
+        'Novell', 'Micron Technology', 'Cloud Software Group', 'wolfSSL Inc.', 'Rajant Corporation',
+        'ICU Medical', 'Barracuda Networks', 'Zscaler Inc.', 'Doremi Labs', 'A10 Networks',
+        'Citrix Systems', 'Sonus Networks', 'Open Source Software Institute', 'Xirrus',
+        'RELM Wireless Corporation', 'REDCOM Laboratories', 'Bomgar Corporation',
+        'Security First Corp.', 'Blue Ridge Networks', 'Good Technology', 'VT iDirect',
+        'ActivIdentity', 'Attachmate Corporation', 'Comtech Mobile Datacom Corporation', 'Panzura',
+        'Saviynt', 'Splunk LLC', 'Keysight Technologies', 'Tellabs Enterprise',
+    ], 'US'),
+    # Canada
+    **dict.fromkeys([
+        'Certicom Corp.', 'Research In Motion Ltd.', 'BlackBerry', 'Nortel Networks',
+        'WinMagic Incorporated', 'Christie Digital Systems Canada Inc.',
+        'Hypersecu Information Systems Inc.',
+    ], 'CA'),
+    # Europe
+    **dict.fromkeys(['nCipher Corporation Ltd.', 'nCipher Security Limited', 'iStorage Ltd.'], 'UK'),
+    **dict.fromkeys(['Thales', 'Oberthur', 'Neopost Technologies', 'Idemia', 'Axalto Inc.'], 'FR'),
+    **dict.fromkeys(['SUSE', 'Utimaco', 'Francotyp-Postalia GmbH', 'Infineon', 'Giesecke & Devrient',
+                     'Siemens', 'FP InovoLabs GmbH'], 'DE'),
+    **dict.fromkeys(['Gemalto', 'NXP Semiconductors'], 'NL'),
+    **dict.fromkeys(['Nokia', 'F-Secure Corporation'], 'FI'),
+    'Yubico': 'SE',
+    'STMicroelectronics': 'CH',
+    # Asia and Oceania
+    **dict.fromkeys(['Canon', 'KIOXIA Corporation', 'Hitachi', 'Trend Micro', 'Sony', 'Toshiba',
+                     'NEC Corporation', 'Fujitsu', 'Icom Inc.'], 'JP'),
+    **dict.fromkeys(['Samsung', 'SK hynix Inc.'], 'KR'),
+    **dict.fromkeys(['Chunghwa Telecom Co.', 'Nuvoton Technology Corporation',
+                     'Enova Technology Corporation'], 'TW'),
+    **dict.fromkeys(['Huawei', 'TCL Communication Ltd.'], 'CN'),
+    **dict.fromkeys(['Check Point Software Technologies', 'Aladdin Knowledge Systems',
+                     'ARX (Algorithmic Research)', 'CTERA Networks Ltd.', 'PacketLight Networks Ltd.',
+                     'AudioCodes Ltd.', 'CyberArk Software Ltd.'], 'IL'),
+    'Persistent Systems': 'IN',
+    **dict.fromkeys(['Senetas', 'Legion of the Bouncy Castle Inc.'], 'AU'),
+}

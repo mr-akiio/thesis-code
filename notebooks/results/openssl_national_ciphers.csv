@@ -1,0 +1,16 @@
+Dataset,Cipher,Home,Scope,CertsMentioning,OpenSSLShareOfThose,OpenSSLShareBaseline
+CC,SEED,KR,home country,67,19.4,24.3
+CC,SEED,KR,elsewhere,49,4.1,17.4
+CC,ARIA,KR,home country,47,12.8,24.3
+CC,ARIA,KR,elsewhere,4,100.0,17.4
+CC,Camellia,JP,elsewhere,4,0.0,18.0
+CC,SM4,CN,elsewhere,111,18.9,17.5
+CC,GOST,RU,elsewhere,1,0.0,17.5
+FIPS 140,SEED,KR,home country,1,0.0,2.6
+FIPS 140,SEED,KR,elsewhere,428,26.4,16.5
+FIPS 140,ARIA,KR,elsewhere,87,26.4,16.5
+FIPS 140,Camellia,JP,home country,19,63.2,21.4
+FIPS 140,Camellia,JP,elsewhere,331,36.0,16.0
+FIPS 140,SM4,CN,home country,4,0.0,35.7
+FIPS 140,SM4,CN,elsewhere,58,37.9,16.1
+FIPS 140,GOST,RU,elsewhere,7,14.3,16.2
